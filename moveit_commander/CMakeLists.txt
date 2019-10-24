@@ -10,4 +10,5 @@ catkin_package()
 install(PROGRAMS bin/${PROJECT_NAME}_cmdline.py
         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
+add_subdirectory(demos)
 add_subdirectory(test)
